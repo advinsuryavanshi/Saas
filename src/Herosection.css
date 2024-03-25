@@ -1,0 +1,59 @@
+.Hero{
+   display: flex;
+   flex: 1;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   justify-content: space-between;
+   background-color: #f5f5dc;
+
+}
+
+.HeroL{
+   display: flex;
+   flex: 0.7;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: larger;
+   padding: 10px;
+}
+
+.HLT{
+   
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+    font-style: normal;
+}
+
+.HLB> form > input{
+   padding: 30px;
+   margin-left: 40px;
+   height: 17px;
+   width: 165px;
+   padding: 10px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 5px;
+
+}
+
+.HLB{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+#everyone{
+   color:  #2e7d32;
+}
+
+@media  (max-width: 1200px) {
+   .Hero{
+      overflow:scroll;
+   }
+
+   .Hero::-webkit-scrollbar {
+      display: none;
+  }
+}
